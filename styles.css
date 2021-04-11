@@ -3,7 +3,7 @@ html{
 }
 body{
     background-color: #46178F;
-    
+    overflow:hidden;
     height:100%;
 }
 .heading{
@@ -54,17 +54,17 @@ button:hover{
 }
 .floating{
     background-color: #3F1581;
-    height:75%;
-    width:35%;
+    height:24rem;
+    width:24rem;
     position: absolute;
 }
 .square{
     transform:rotate(45deg);
     top:-12%;
-    left:-8%;
+    left:-6%;
 }
 .circle{
     border-radius: 50%;
-    top:38%;
-    left:72%;
+    bottom:-18%;
+    right:-10%;
 }
